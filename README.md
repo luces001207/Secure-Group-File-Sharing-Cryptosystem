@@ -8,7 +8,7 @@ The system enables one sender to encrypt and sign a file for multiple receivers.
 ---
 
 ## 📚 Table of Contents
-- [Features](#features)
+- [Features](#✅features)
 - [System Overview](#system-overview)
 - [Cryptographic Design](#cryptographic-design)
 - [Elliptic Curve Diffie–Hellman (ECDH)](#elliptic-curve-diffiehellman-ecdh)
