@@ -8,7 +8,7 @@ The system enables one sender to encrypt and sign a file for multiple receivers.
 ---
 
 ## 📚 Table of Contents
-- [Features](#✅features)
+- [Features](#features)
 - [System Overview](#system-overview)
 - [Cryptographic Design](#cryptographic-design)
 - [Elliptic Curve Diffie–Hellman (ECDH)](#elliptic-curve-diffiehellman-ecdh)
@@ -24,7 +24,7 @@ The system enables one sender to encrypt and sign a file for multiple receivers.
 
 ---
 
-## ✅ Features
+## Features
 - 🔐 **AES-256-CBC File Encryption**
 - 🔑 **ECC (P-256) Key Pairs for both ECDSA & ECDH**
 - 🔏 **Digital Signatures for Integrity & Authentication**
