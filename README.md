@@ -107,7 +107,7 @@ This shared secret is then processed with **PBKDF2** to derive an envelope key.
 ### 📌 Generate ECC Key Pairs (P-256)
 
 ### ECC Key Pairs Options
-🔗https://cryptobook.nakov.com/asymmetric-key-ciphers/elliptic-curve-cryptography-ecc
+🔗 https://cryptobook.nakov.com/asymmetric-key-ciphers/elliptic-curve-cryptography-ecc
 
 #### Generate private key:
 ```
@@ -159,7 +159,7 @@ These keys are used for both:
 2. Compute ECDH shared secret
 3. Input shared secret into **PBKDF2**
 4. Output → hardened envelope key
-5. Encrypt session key into a digital envelope
+5. Encrypt the session key into a digital envelope
 
 ### Receiver Side
 1. Combine receiver’s **private key** with sender’s **public key**
@@ -274,12 +274,12 @@ openssl enc -aes-256-cbc -d -in envelope.enc   -out session_key.bin -pass file:e
 
 ---
 
-## 🔒 Security Considerations
+## Security Considerations
 - ECC private keys must remain confidential
 - PBKDF2 should use a strong iteration count (≥100k)
 - Intermediate files must be securely deleted
 - The zip file should be delivered over a secure channel
-- Ensures confidentiality, integrity, authenticity
+- Ensures confidentiality, integrity, and authenticity
 
 ---
 
