@@ -32,7 +32,7 @@ The system enables one sender to encrypt and sign a file for multiple receivers.
 - 🔄 **Key Re-Wrapping** without re-encrypting the original data
 - 🧹 **Complete cleanup** of intermediate files in all scripts
 - 🛑 **Graceful error handling** with stderr outputs
-- 🧪 **Fully automated Bash scripts** using OpenSSL
+- 🧪 **Fully automated Bash scripts** using OpenSSL (Openssl libraries:https://docs.openssl.org/3.5/man1/openssl/)
 
 ---
 
@@ -105,6 +105,9 @@ This shared secret is then processed with **PBKDF2** to derive an envelope key.
 ---
 
 ### 📌 Generate ECC Key Pairs (P-256)
+
+### ECC Key Pairs Options
+🔗https://cryptobook.nakov.com/asymmetric-key-ciphers/elliptic-curve-cryptography-ecc
 
 #### Generate private key:
 ```
