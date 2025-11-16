@@ -36,7 +36,7 @@ The system enables one sender to encrypt and sign a file for multiple receivers.
 
 ---
 
-## 🧱 System Overview
+## System Overview
 
 ### Sender Workflow
 1. Generate a random AES session key
@@ -65,7 +65,7 @@ The system enables one sender to encrypt and sign a file for multiple receivers.
 
 ---
 
-## 🔐 Cryptographic Design
+## Cryptographic Design
 ---
 
 ## 🔑 ECC Key Pair Requirements (For ECDSA & ECDH)
@@ -136,7 +136,7 @@ Repeat for:
 
 ---
 
-# 🔑 Elliptic Curve Diffie–Hellman (ECDH)
+# Elliptic Curve Diffie–Hellman (ECDH)
 
 Because ECC does **not** support direct asymmetric encryption, this project uses **ECDH** (Elliptic Curve Diffie–Hellman) to derive secure shared secrets for digital envelopes.
 
@@ -213,7 +213,7 @@ openssl enc -aes-256-cbc -d -in envelope.enc   -out session_key.bin -pass file:e
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
@@ -233,7 +233,7 @@ openssl enc -aes-256-cbc -d -in envelope.enc   -out session_key.bin -pass file:e
 
 ---
 
-# 🚀 Usage
+# Usage
 
 ## Task 1: Encryption / Decryption
 
@@ -280,7 +280,7 @@ openssl enc -aes-256-cbc -d -in envelope.enc   -out session_key.bin -pass file:e
 
 ---
 
-## 📘 Lessons Learned
+## Lessons Learned
 - Implementation of hybrid encryption with ECDH + AES
 - Integration of PBKDF2 for hardened key derivation
 - Bash automation for complex cryptographic workflows
@@ -289,7 +289,7 @@ openssl enc -aes-256-cbc -d -in envelope.enc   -out session_key.bin -pass file:e
 
 ---
 
-## 🧰 Requirements
+## Requirements
 - Bash
 - OpenSSL 3.x
 - Linux / macOS
@@ -297,6 +297,6 @@ openssl enc -aes-256-cbc -d -in envelope.enc   -out session_key.bin -pass file:e
 
 ---
 
-## 📎 License & Academic Integrity
+## License & Academic Integrity
 This repository is for educational demonstration and reflects my original work for one of my Cybersecurity Master's courses.
 Do not reuse it directly for graded submissions in other courses.
