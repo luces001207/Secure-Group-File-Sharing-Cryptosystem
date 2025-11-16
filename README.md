@@ -20,7 +20,7 @@ The system enables one sender to encrypt and sign a file for multiple receivers.
 - [Security Considerations](#security-considerations)
 - [Requirements](#requirements)
 - [Lessons Learned](#lessons-learned)
-- [License & Academic Integrity](#license-&-academic-integrity)
+- [License and Academic Integrity](#license-and-academic-integrity)
 
 ---
 
@@ -300,6 +300,6 @@ openssl enc -aes-256-cbc -d -in envelope.enc   -out session_key.bin -pass file:e
 
 ---
 
-## License & Academic Integrity
+## License and Academic Integrity
 This repository is for educational demonstration and reflects my original work for one of my Cybersecurity Master's courses.
-Do not reuse it directly for graded submissions in other courses.
+**Do not reuse it directly for graded submissions in other courses.**
